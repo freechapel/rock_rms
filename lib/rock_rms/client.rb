@@ -19,6 +19,8 @@ module RockRMS
     include RockRMS::Client::Campus
     include RockRMS::Client::DefinedType
     include RockRMS::Client::DefinedValue
+    include RockRMS::Client::Event
+    include RockRMS::Client::EventOccurrence
     include RockRMS::Client::Gateway
     include RockRMS::Client::Group
     include RockRMS::Client::GroupMember
@@ -31,6 +33,7 @@ module RockRMS
     include RockRMS::Client::Refund
     include RockRMS::Client::RefundReason
     include RockRMS::Client::SavedPaymentMethod
+    include RockRMS::Client::Schedule
     include RockRMS::Client::Transaction
     include RockRMS::Client::TransactionDetail
     include RockRMS::Client::UserLogin
