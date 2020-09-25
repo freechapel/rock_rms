@@ -2,19 +2,17 @@
 
 # Rock RMS Ruby Client [![Build Status](https://travis-ci.org/taylorbrooks/rock_rms.svg?branch=master)](https://travis-ci.org/taylorbrooks/rock_rms)
 
-A Ruby wrapper for the Rock RMS API
+A Ruby wrapper for the Rock RMS API updated by the team at Free Chapel to include services such as events and groups.
 
 To get a general overview of Rock RMS: https://www.rockrms.com
 
 To stay up-to-date with the code changes of Rock RMS: https://github.com/SparkDevNetwork/Rock
 
-I'm a big fan of Rock so if you have problems using the gem or would like to see support for new endpoints, please open a GitHub issue -- I'll get it resolved as quick as I can.
-
 ### Installation
 Add this line to your application's Gemfile:
 ````ruby
   # in your Gemfile
-  gem 'rock_rms', '~> 4.2'
+  gem 'rock_rms', git: 'https://github.com/freechapel/rock_rms.git'
 
   # then...
   bundle install
@@ -35,7 +33,6 @@ Add this line to your application's Gemfile:
 
 ### History
 
-View the [changelog](https://github.com/taylorbrooks/rock_rms/blob/master/CHANGELOG.md)
 This gem follows [Semantic Versioning](http://semver.org/)
 
 ### Contributing
@@ -48,4 +45,4 @@ Everyone is encouraged to help improve this project. Here are a few ways you can
 - Suggest or add new features
 
 ### Copyright
-Copyright (c) 2018 Taylor Brooks. See LICENSE for details.
+Copyright (c) 2018 [Taylor Brooks](https://github.com/taylorbrooks) and (c) 2020 [Free Chapel](https://github.com/freechapel). See LICENSE for details.
