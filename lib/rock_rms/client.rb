@@ -15,12 +15,12 @@ module RockRMS
     include RockRMS::Client::Batch
     include RockRMS::Client::Block
     include RockRMS::Client::BlockType
-    include RockRMS::Client::Fund
     include RockRMS::Client::Campus
     include RockRMS::Client::DefinedType
     include RockRMS::Client::DefinedValue
     include RockRMS::Client::Event
     include RockRMS::Client::EventOccurrence
+    include RockRMS::Client::Fund
     include RockRMS::Client::Gateway
     include RockRMS::Client::Group
     include RockRMS::Client::GroupMember
