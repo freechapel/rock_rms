@@ -14,7 +14,7 @@ module RockRMS
       private
 
       def event_path(id = nil)
-        id ? "EventItems/#{id}" : 'EventItems'
+        id ? "EventItems/#{id}" : 'EventItems?$expand=EventItemOccurrences'
       end
     end
   end
